@@ -44,7 +44,7 @@ section {
   margin-top: 0px;
   color: #FFFFFF;
 }
-a {
+nav a {
   background-color: #000000;
   color: #FFFFFF;
   text-align: center;
@@ -57,9 +57,12 @@ nav a:active, a:focus {
   background-color:   #FFFF00;
 }
 .left {
-   width: 150px;
+   width: 161px;
    float: left;
    padding-top: 0px;
+   background: green;
+   padding-top: 10px;
+   padding-bottom: 10px;
 } 
 main a {
  text-decoration: none; 
@@ -76,6 +79,7 @@ img {
 padding: 10px;
 margin-left: 160px;
 }
-.active a {
-  background-color: #FFFF00;
+.active {
+  background: #FFFF00;
+  color: green;
 }

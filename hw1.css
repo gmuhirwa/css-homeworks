@@ -1,33 +1,128 @@
 
 body {
-  width: 800px;
+  width: 950px;
   margin: auto;
+  padding: 0px;
+  margin: 0px auto;
+  font-size: 14px;
 }
-
+nav a {
+  background-color: #ffffff;
+  color: #000000;
+  width: 150px;
+  height: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 7px;
+  float: center;
+  margin-left: 7.5%;
+  padding-bottom: 7px;
+}
+nav a:hover {
+  background: #ff0000;
+}
+nav a:focus {
+ background-color: #000000;
+}
 header {
-  background-color: #008B8B;
+  background-color: #FFFFFF;
+  background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+  height: 170px;
+  width: 100%;
+  margin: 0px;
 }
 h1, h2 {
-  background-color: #0000FF;
   text-transform: uppercase;
   color: #FFFFFF;
+  padding-top: 15px;
 }
 h1 {
   text-align: center;
 }
 section {
-  background-color: #9400D3;
+  background-image: -webkit-linear-gradient(right, black 38%, red, blue);
+  background-image: -moz-linear-gradient(right, black 38%, red, blue);
+  background-image: -o-linear-gradient(right, black 38%, red, blue);
+  background-image: -ms-linear-gradient(right, black 38%, red, blue);
   margin-top: 0px;
   color: #FFFFFF;
 }
-a {
-  background-color: #FF0000;
+nav a {
+  background-color: #000000;
   color: #FFFFFF;
   text-align: center;
   border-radius: 5px;
+  text-decoration: none;
+  opacity: .7;
+  display: inline-block;
 }
-.left a {
-  display: none;
-}  
+nav a:active, a:focus {
+  background-color:   #FFFF00;
+}
+.left {
+   width: 161px;
+   float: left;
+   padding-top: 0px;
+   background: green;
+   padding-top: 10px;
+   padding-bottom: 10px;
+} 
+main a {
+ text-decoration: none; 
+ background-color: #008000;
+} 
+img {
+  width: 150px;
+  height: 120px;
+  float: center;
+  border: 1px solid #FFFFFF;
+  margin: 4px 4px 4px 4px;
+}
+.right {
+padding: 10px;
+margin-left: 160px;
+}
+.active {
+  background: #FFFF00;
+  color: green;
+}
+table {
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 auto;
+}
 
+tr {
+  border: 1px solid white;
+}
+
+th {
+  background-color: green;
+  height: 40px;
+  text-shadow: 0 0 14px black;
+}
+th:hover {
+  background-color: red;
+  height: 50px;
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transition: 2s ease;
+  border-radius: 100px;
+}
+th:nth-child(1) {
+  text-align: left;
+}
+td::first-letter {
+  color: yellow;
+  font-weight: bold;
+}
+td:nth-child(2), td:nth-child(3) {
+  text-align: center;
+}
+td {
+  background-color: green;
+  opacity: .6;
+}
 
